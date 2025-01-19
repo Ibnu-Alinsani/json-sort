@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+
+import Editor from "@/components/Editor.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Editor
+    width="50rem"
+    height="20rem"
+  />
 </template>
+
+<style scoped>
+
+</style>

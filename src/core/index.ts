@@ -1,7 +1,5 @@
 import { isObjectType, isArrayType } from "./utils";
 import { SortDirection } from './enums';
-import { sample1 } from './samples';
-
 
 function f(object: any, direction: SortDirection) :any {
 
@@ -77,6 +75,8 @@ function reorderedFields(obj: any, newOrder: string[]) :string {
     return reorderedFields
 }
 
-const finalResult = JSON.stringify(f(sample1, SortDirection.ASC), null, 2)
+// const finalResult = JSON.stringify(f(sample1, SortDirection.ASC), null, 2)
 
-console.log('finalResult', finalResult)
+// console.log('finalResult', finalResult)
+
+export default f
