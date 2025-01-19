@@ -1,0 +1,53 @@
+{
+  "id": 12345,
+  "name": "John Doe",
+  "isActive": true,
+  "profile": {
+    "age": 30,
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "coordinates": {
+        "lat": 37.7749,
+        "long": -122.4194
+      }
+    },
+    "preferences": [
+      {
+        "type": "notification",
+        "enabled": true,
+        "methods": ["email", "sms"]
+      },
+      {
+        "type": "privacy",
+        "settings": {
+          "shareLocation": false,
+          "shareActivity": true
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "action": "login",
+      "timestamp": "2025-01-01T08:30:00Z",
+      "metadata": {
+        "ip": "192.168.1.1",
+        "device": "mobile"
+      }
+    },
+    {
+      "action": "purchase",
+      "timestamp": "2025-01-02T12:45:00Z",
+      "metadata": {
+        "items": [
+          { "id": "A001", "name": "Laptop", "price": 1200.5 },
+          { "id": "A002", "name": "Mouse", "price": 25.75 }
+        ],
+        "total": 1226.25
+      }
+    }
+  ],
+  "tags": ["premium", "frequent-user"],
+  "notifications": null
+}
