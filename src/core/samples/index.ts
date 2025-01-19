@@ -1,5 +1,3 @@
 import sample1 from './1.json'
 
-export {
-    sample1,
-}
+export { sample1 }

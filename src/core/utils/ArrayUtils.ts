@@ -1,7 +1,5 @@
-function isArrayType(value: any) :boolean {
-    return Array.isArray(value)
+function isArrayType(value: any): boolean {
+  return Array.isArray(value)
 }
 
-export {
-    isArrayType,
-}
+export { isArrayType }

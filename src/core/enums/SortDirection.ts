@@ -1,8 +1,6 @@
 enum SortDirection {
-    ASC = 'Ascending',
-    DESC = 'Descending',
+  ASC = 'Ascending',
+  DESC = 'Descending',
 }
 
-export {
-    SortDirection
-};
+export { SortDirection }

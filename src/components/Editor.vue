@@ -2,9 +2,7 @@
 import { VueMonacoEditor } from '@guolao/vue-monaco-editor'
 import { shallowRef } from 'vue'
 
-const {
-  theme = 'vs-dark'
-} = defineProps< {
+const { theme = 'vs-dark' } = defineProps<{
   width: string | number
   height: string | number
   options?: Record<string, any>
@@ -26,8 +24,8 @@ const on = {
   monacoEditor: {
     mount(editor) {
       editorRef.value = editor
-    }
-  }
+    },
+  },
 }
 
 // your action
@@ -44,7 +42,7 @@ function formatCode() {
     :theme="theme"
     :options="{
       ...MONACO_EDITOR_OPTIONS,
-      ...options
+      ...options,
     }"
     default-language="json"
     :language="language"
@@ -54,6 +52,4 @@ function formatCode() {
   />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
